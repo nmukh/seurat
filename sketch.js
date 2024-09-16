@@ -22,6 +22,7 @@ function setup() {
   // Create the main canvas with space for 3 side-by-side canvases
   createCanvas(3 * canvasWidth, canvasHeight);  // Total width for three canvases
   background(255);
+  frameRate(15);
 
   // Create three separate graphics objects (off-screen canvases)
   canvas1 = createGraphics(canvasWidth, canvasHeight);  // For the original image
@@ -37,7 +38,7 @@ function setup() {
 
 function draw() {
   // Draw points gradually on both canvas2 (image + dots) and canvas3 (dots only)
-  for (let i = 0; i < 1000; i++) {
+  for (let i = 0; i < 100; i++) {
     x = floor(random(0, sampleImage.width));
     y = floor(random(0, sampleImage.height));
     
