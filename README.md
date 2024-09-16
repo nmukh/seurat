@@ -1,6 +1,5 @@
-# Seurat - Pointillistic Image Generator
 
-## Description
+# DEMO https://nmukh.github.io/seurat/
 
 **Seurat** is a pointillistic image generator implemented in p5.js, inspired by the artistic technique of pointillism. The project demonstrates a progressive comparison between an original image, an image overlaid with dots, and a recreation of the image using only dots. It dynamically loads an image from an external source (via the Picsum API), and the size of the image is adjusted based on the browser window, making it responsive for different screen sizes (desktop and mobile).
 
