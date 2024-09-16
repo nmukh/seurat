@@ -6,10 +6,16 @@
     <title>Seurat - Pointillistic Image Generator</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
     <script src="sketch.js"></script>
+    <script>
+  function refreshPage() {
+    location.reload();  // This will refresh the page
+  }
+</script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Pointillistic Image Generator</h1>
+    <button id="refreshButton" onclick="refreshPage()">Get a New Image</button>
     <blockquote class="quote">
     <p>"The inability of some critics to connect the dots doesn't make pointillism pointless."</p>
   <cite>— Seurat</cite>
